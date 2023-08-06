@@ -6,7 +6,7 @@
     Published on {{ $page->date }} by {{ $page->author->name }}
 </div>
 <article class="space-y-4 mt-8 text-sm text-green-400 leading-loose">
-    <img src="{{ $page->featured_image }}" class="border-2 border-green-400 p-1" alt="{{ $page->featured_image }}" />
+    <img src="{{ $page->featured_image }}" class="border-2 border-green-400 p-1" alt="{{ $page->featured_image->alt }}" />
     {!! $page->content !!}
 </article>
 @endsection
