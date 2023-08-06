@@ -23,6 +23,11 @@
             background: #047857;
         }
 
+        nav>ul>li {
+            width: 30px;
+            text-align: center;
+        }
+
         nav>ul>li>span {
             cursor: not-allowed;
         }
